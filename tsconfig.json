@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "../node_modules",
+		"types": ["cypress"],
+		"outDir": "$$ts-jest$$"
+	},
+	"include": ["**/*.*"],
+	"exclude": ["./plugins/**/*", "./typings/**/*", "./built/**/*"]
+}
